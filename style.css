@@ -1,0 +1,225 @@
+html{
+    background-color: #fae7f8;
+}
+
+:root {
+    --clr-accent: #fae7f8;
+    --clr-dark:  #ad009c;
+    --clr-light: #f8c4f3;
+    --clr-bar: #ff59ee;
+    font-family: "Georgia", Georgia, serif;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+nav {
+    margin-top: 10px;
+    border-top: 3px solid  #ff59ee;
+    border-bottom: .5px solid var(--clr-dark);
+    font-family: "Georgia", Georgia, serif;
+}
+
+.nav_options {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 20% 3px 20%;
+    padding: 10px;
+    list-style: none;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: var(--clr-dark);
+}
+
+.nav_link:hover {
+    color:#ff59ee;
+    font-weight: 1000;
+    text-shadow: 2px 2px 2px #74236c(176, 42, 183, 0.4);
+    border-radius: 40%;
+}
+
+/*
+.page_nav {
+    color:#ff59ee;
+    font-weight: 1000;
+    text-shadow: 2px 2px 2px #74236c(176, 42, 183, 0.4);
+    border-radius: 40%;
+}
+*/
+
+header{
+    margin-bottom: 30px;
+}
+
+
+img{
+    display: block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    border: 2px solid var(--clr-dark);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family: "Georgia", Georgia, serif;
+}
+
+#mid{
+    display: flex;
+    flex: 1;
+}
+
+
+.sectionA{
+    display: flex;
+    justify-content: center;
+    border-right: .5px solid var(--clr-dark);
+    flex: 0 0 30%;
+    font-family: "Georgia", Georgia, serif;
+}
+
+@media (min-width: 720px) {
+    .sectionB{
+        margin: 40px;
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+
+.sectionB{
+    margin: 40px;
+    margin-top: 0px;
+    color:  #7f0272;
+    font-family: "Georgia", Georgia, serif;
+}
+
+@media (max-width: 720px) {
+    header{
+        margin-bottom: 10px;
+        font-family: "Georgia", Georgia, serif;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    #mid{
+        display: block;
+    }
+    .sectionA{
+        justify-content: center;
+        border-bottom: .5px solid var(--clr-dark);
+    }
+    .sectionB{
+        margin-bottom: 0px;
+    }
+    img{
+        display: block;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 0px;
+        border: 2px solid var(--clr-dark);
+    }
+    footer{
+        margin-top: 0px;
+        border-top: .5px solid var(--clr-dark);
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+
+.ella_items{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-family: "Georgia", Georgia, serif;
+}
+
+.resume_link {
+    text-decoration: none;
+    color: var(--clr-dark);
+}
+
+.resume_link:hover {
+    color:#ff59ee;
+    font-weight: 1000;
+    text-shadow: 2px 2px 2px #74236c(176, 42, 183, 0.4);
+    border-radius: 40%;
+}
+
+h1, h2{
+    font-weight: 10;
+    color: var(--clr-dark);
+    font-family: sans-serif;
+    margin: 10px;
+    font-family: "Georgia", Georgia, serif;
+
+}
+.ella_email{
+    text-decoration: none;
+    color: #ff59ee;
+    font-family: "Georgia", Georgia, serif;
+}
+
+.ella_email:hover {
+    color:#ff59ee;
+    font-weight: 1000;
+    text-shadow: 2px 2px 2px #74236c(176, 42, 183, 0.4);
+    border-radius: 40%;
+}
+
+footer{
+    border-top: .5px solid var(--clr-dark);
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+    color: var(--clr-dark);
+    font-family: "Georgia", Georgia, serif;
+}
+
+.checkboxes {
+    border-radius: 5px;
+
+}
+label{
+    padding-right: 8px;
+}
+
+
+progress {
+    width: 100%;
+    height: 22.53px;
+}
+
+.interest_item{
+    padding-bottom: 15px;
+    list-style-type: "\1F48C";
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+    font-size: 1.05em;
+}
+
+td {
+    padding: 8px; 
+    text-align: left;
+}
