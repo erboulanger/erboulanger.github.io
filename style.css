@@ -47,14 +47,14 @@ nav {
     border-radius: 40%;
 }
 
-/*
-.page_nav {
+
+#page_nav {
     color:#ff59ee;
     font-weight: 1000;
     text-shadow: 2px 2px 2px #74236c(176, 42, 183, 0.4);
     border-radius: 40%;
 }
-*/
+
 
 header{
     margin-bottom: 30px;
